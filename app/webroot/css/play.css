@@ -1,0 +1,212 @@
+#content{
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+#header{
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 103;
+}
+#header_content{
+	height: 30px;
+}
+
+#left_panel{
+	position: fixed;
+	top: 30px; bottom: 0; left: 0;
+	width: 250px;
+	text-align: center;
+	background-color: #333;
+	border-right: 1px solid #111;
+	z-index: 101;
+}
+#gameboard{
+	position: fixed;
+	top:0; right:0; bottom:0; left:0;
+}
+#gameboard_window{
+	position: fixed;
+	top:30px; right:0; bottom:0; left:250px;
+}
+#chat{
+	position: fixed;
+	right: 0; bottom: 0;
+	z-index: 102;
+}
+
+
+#card_preview{
+	width: 211px;
+	height: 298px;
+	margin-top: 10px;
+	margin-left: 19px;
+	background-color: #555;
+	border: 1px solid #111;
+	/*background-image: url('/img/cardback_gray.jpg');*/
+}
+
+#boxes{
+	width: 250px;
+	text-align: center;
+	margin-top: 10px;
+}
+.box{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #111;
+	background-color: #555;
+	display: inline-block;
+}
+
+.ui-highlight{
+	border: 1px solid white !important;
+	background: linear-gradient(bottom, #4889C2 0%, #5BA7E9 100%) !important;
+	background: -o-linear-gradient(bottom, #4889C2 0%, #5BA7E9 100%) !important;
+	background: -moz-linear-gradient(bottom, #4889C2 0%, #5BA7E9 100%) !important;
+	background: -webkit-linear-gradient(bottom, #4889C2 0%, #5BA7E9 100%) !important;
+	background: -ms-linear-gradient(bottom, #4889C2 0%, #5BA7E9 100%) !important;
+}
+
+#chat #log  {
+	width:400px;
+	height:120px;
+	margin-bottom: 2px;
+	padding-left: 5px;
+	font-size: 12px;
+	background-color: #333;
+	border: 1px solid #111;
+	color: #ddd;
+}
+#chat #message {
+	width:399px;
+	line-height:16px;
+	height: 20px;
+	padding-left: 8px;
+	font-size: 12px;
+	background-color: #333;
+	border: 1px solid #111;
+	color: #ddd;
+}
+#chat #btn_send{
+	width: 70px;
+	height: 27px;
+	margin-top: 2px;
+	padding: 0;
+}
+#chat #chat_collapse{
+	float: left;
+	font-weight: bold;
+	height: 155px;
+	line-height: 155px;
+	width: 14px;
+	background-color: #555;
+	margin-left: 3px;
+	margin-top: 2px;
+	text-align: center;
+	color: #111;
+	border: 1px solid #111;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+
+#hand_container{
+	clear:both;
+	border: 1px solid #111;
+	background-color: #555;
+	width: 211px;
+	min-height: 22px;
+	margin: auto;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#hand{
+	width: 200px;
+	margin: auto;
+}
+
+#btn_draw{
+	width: 90%;
+	height: 22px;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.tokenclone{
+	width: 40px;
+	height: 40px;
+	background-color: red;
+}
+
+div.gamecard{
+	float: left;
+	width: 85px;
+	height: 120px;
+	background-color: #eee;
+	border: 1px solid #111;
+	color: #222;
+	font-size: 12px;
+	position: absolute !important;
+}
+
+div.tapped{
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg); 
+	-ms-transform: rotate(90deg); 
+	-o-transform: rotate(90deg); 
+	transform: rotate(90deg); 
+}
+
+div.movingcard{
+	z-index: 1000 !important;
+}
+
+div.handcard{
+	position: relative;
+	height: 20px;
+	margin-top: -1px;
+	border: 1px solid #111;
+	cursor: default;
+}
+.handcard .cardname{
+	position: absolute;
+	max-width: 196px;
+	left: 4px;
+	line-height: 20px;
+	font-size: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: left;
+}
+.handcard .manacost{
+	position: absolute;
+	top: -2px;
+	right: 4px;
+	text-align: right;
+}
+.handcard .manacost img{ 
+	max-height: 16px;
+	max-width: 16px;
+	vertical-align: middle;
+}
+
+.red, .blue, .black, .green, .artifact{ color: #fff; }
+.white, .land, .multi{ color: #222; }
+
+.red{ background-color: #c44949; }
+.blue{ background-color: #498ec4; }
+.green{ background-color: #609038; }
+.black{ background-color: #1d1d1d; }
+.white{ background-color: #f6f4ea; }
+.land{ background-color: #d4c1af; }
+.artifact{ background-color: #91857a; }
+.multi{ background-color: #e3cc61; }
+
+

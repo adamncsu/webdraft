@@ -1,0 +1,1 @@
+php -S localhost:8080 -t C:\WAMP\www\cake\app\webroot C:\WAMP\www\cake\app\webroot\rewrite.php

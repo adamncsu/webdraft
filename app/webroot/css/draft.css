@@ -1,0 +1,404 @@
+#draft_lobby{
+
+}
+
+#draft_lobby p{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 12px;
+}
+#draft_lobby h1{
+	margin-bottom: 0px;
+}
+
+#draft_lobby_left{
+	float: left;
+	width: 300px;
+	text-align: left;
+}
+#draft_lobby_left hr{
+	background-color: #444;
+	border: 0px;
+	height: 1px;
+	width: 100px;
+}
+#draft_lobby_controls{
+	display: none;
+}
+
+#draft_lobby_right {
+	width: 600px;
+	float: left;
+}
+#draft_lobby_right #log {
+	width:592px;
+	height:400px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+#draft_lobby_right #message {
+	width:486px;
+	line-height:20px;
+	padding-left: 8px;
+}
+
+input, textarea {
+	border:1px solid #CCC;
+	margin:0px;
+	padding:0px;
+}
+
+#btn_send{
+	width: 100px;
+	height: 32px;
+	margin-top: 0px;
+}
+#btn_draft{
+	width: 211px;
+	height: 32px;
+	display: none;
+	padding: 0;
+	margin: 0;
+}
+#btn_save{
+	width: 200px;
+	height: 35px;
+	font-size: 18px;
+	font-weight: normal;
+	display: none;
+}
+
+div#live_title{
+	float: left;
+}
+#live_title h1{
+	margin: 0px;
+}
+
+div#live_indicators{
+	float: right;
+	padding-top: 10px;
+}
+#live_indicators img{
+	padding-left: 5px;
+}
+
+#draft_live #row_2{
+	clear:both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#draft_live #row_2 #pack{
+	float: left;
+	width: 236px;
+	min-height: 1em;
+}
+#packstack{
+	font-size: 16px;
+	border-bottom: 1px solid #111;
+	display: none;
+}
+
+#draft_live #row_2 #build_info{
+	float: left;
+	width: 216px;
+	height: 278px;
+	background-color: #111;
+	padding: 10px 10px 10px 10px;
+	border-radius: 3px;
+}
+
+.drafttable{
+	margin-bottom: 16px;
+	width: 236px;
+	height: 60px;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	background: #3a3a3a;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.drafttable .dt_topleft{
+	height: 18px;
+	font-size: 14px;
+	padding: 2px 6px 0 6px;
+	background-color: #111;
+	border-bottom: 1px solid #000;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.dt_topleft div{
+	float: left;
+	width: 50%;
+}
+.dt_actions{
+	text-align: right;
+}
+.drafttable .dt_main{
+	font-size: 12px;
+	padding-top: 5px;
+}
+.dt_main_left{
+	float: left;
+	padding-left: 8px;
+	width: 140px;
+	overflow: hidden;
+}
+.dt_main_right{
+	float: left;
+	text-align: right;
+	width: 85px;
+}
+.dt_main_right .btn_ready{
+	margin: 0 3px 0 0;
+	width: 75px;
+	height: 27px;
+	font-size: 14px;
+}
+
+
+#cardpreview_container{
+	float: left;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+#cardpreview{
+	width: 212px;
+	height: 308px;
+}
+#cardpreview_button{
+	padding-top: 5px;
+}
+
+#draft_live_chat, #draft_build_chat{
+	float: right;
+}
+#draft_live_chat #log, #draft_build_chat #log  {
+	width:408px;
+	height:303px;
+	margin-bottom: 8px;
+	padding-left: 5px;
+}
+#draft_build_chat #log{
+	height:253px;
+}
+#draft_live_chat #message, #draft_build_chat #message {
+	width:298px;
+	line-height:20px;
+	padding-left: 8px;
+}
+
+#draft_live #row_3{
+	clear:both; 
+	float: left;
+	width: 860px;
+	background-color: #111;
+	min-height: 210px;
+	padding: 10px 20px 20px 20px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	
+	border-radius: 3px;
+}
+#draft_live h3{
+	padding: 0 0 5px 0;
+	margin: 0;
+}
+
+#drafted_cards, #drafted_lands{
+	float: left;
+	clear: both;
+}
+#drafted_cards_1, #drafted_cards_2, #drafted_cards_3, #drafted_cards_4, #drafted_cards_5,
+#drafted_lands_1, #drafted_lands_2, #drafted_lands_3, #drafted_lands_4, #drafted_lands_5{
+	float: left;
+}
+#drafted_cards_1, #drafted_cards_2, #drafted_cards_3, #drafted_cards_4,
+#drafted_lands_1, #drafted_lands_2, #drafted_lands_3, #drafted_lands_4{
+	padding-right: 20px;
+}
+
+
+#drafted_lands .yourcard{
+	cursor: auto;
+}
+#drafted_lands .land .cardname{
+	width: 87px;
+}
+.landpicker, .landpicker div{
+	float: left;
+}
+.landpicker div{
+	line-height: 18px;
+	text-align: center;
+}
+.landpicker .minus, .landpicker .plus{
+	width: 16px;
+	height: 16px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+.landpicker .value{
+	width: 20px;
+	height: 18px;
+}
+
+#draftboard_title{
+	line-height: 20px;
+}
+
+.ui-dialog{
+	border: 1px solid #111;
+	background-color: #eee;
+}
+.ui-dialog-titlebar{
+	background-color: #555;
+	border-bottom: 1px solid #111;
+	padding: 3px 5px;
+	font-weight: bold;
+}
+.ui-dialog-titlebar-close{
+	display: none;
+}
+.ui-dialog-content{
+	color: #222;
+	font-size: 80%;
+	padding: 10px;
+	max-height: 250px !important;
+	overflow: hidden;
+}
+.ui-dialog-textarea{
+	width: 100%;
+	height: 250px;
+}
+.ui-dialog-buttonpane{
+	padding: 10px 0 10px 0;
+	text-align: center;
+	border-top: 1px solid #bbb;
+}
+.ui-dialog-buttonpane .ui-button{
+	margin: 0px 5px;
+	padding: 5px 10px;
+	font-size: 75%;
+}
+
+img.noplayer{
+	display: none;
+}
+
+
+.packcard{
+	height: 22px;
+	border-left: 1px solid #111;
+	border-top: 1px solid #111;
+	border-right: 1px solid #111;
+	cursor: pointer;
+}
+.packcard .raritybox{
+	width: 8px;
+	height: 22px;
+	border-right: 1px solid #111;
+}
+.packcard .cardname{
+	width: 150px;
+	line-height: 22px;
+	padding: 0px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+img.ind_select{
+	max-height: 12px;
+	max-width: 12px;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+.packcard .manacost img{ 
+	max-height: 16px;
+	max-width: 16px;
+	vertical-align: middle;
+}
+.packcard .manacost{
+	/*float: right;*/
+	/*width: 60px;*/
+	text-align: right;
+	/*padding: 2px 4px 0 0;*/
+	height: 22px;
+	margin-top: -1px;
+	padding-right: 2px;
+}
+.raritybox, .cardname, .checkboxdiv{
+	float: left;
+}
+
+.yourcard, .buildcard{
+	height: 18px;
+	border-bottom: 1px solid #111;
+	cursor: pointer;
+	font-size: 12px;
+}
+.yourcard .raritybox, .buildcard .raritybox{
+	width: 6px;
+	height: 18px;
+	border-right: 1px solid #111;
+}
+.yourcard .cardname, .buildcard .cardname{
+	width: 139px;
+	line-height: 18px;
+	padding: 0px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.buildcard .cardname{
+	width: 121px;
+}
+.buildcard .checkboxdiv{
+	width: 16px;
+	height: 17px;
+	padding-top: 1px;
+	padding-right: 2px;
+	text-align: right;
+	background-repeat: no-repeat;
+	background-position: 2px 3px;
+}
+.buildcard .on{
+	background-image: url(/img/cb_on.gif);
+}
+.buildcard .off{
+	background-image: url(/img/cb_off.gif);
+}
+.checkbox{
+	margin: 0;
+	padding: 0;
+	width: 12px;
+	height: 12px;
+}
+
+
+.red, .blue, .black, .green, .artifact{ color: #fff; }
+.white, .land, .multi{ color: #222; }
+
+.red{ background-color: #c44949; }
+.blue{ background-color: #498ec4; }
+.green{ background-color: #609038; }
+.black{ background-color: #1d1d1d; }
+.white{ background-color: #f6f4ea; }
+.land{ background-color: #d4c1af; }
+.artifact{ background-color: #91857a; }
+.multi{ background-color: #e3cc61; }
+
+.mythic{ background-color: #e97630; }
+.rare{ background-color: #f2c055; }
+.uncommon{ background-color: #c8c8c8; }
+.common{ background-color: #444444; }
